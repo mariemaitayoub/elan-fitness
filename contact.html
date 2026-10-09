@@ -5,16 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
-    content="Élan Fitness, salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
-  <title>POWER Gym | Salle de sport à Casablanca</title>
+    content="POWER Gym , salle de sport à Casablanca : musculation, yoga, cardio et boxe fitness avec des coachs diplômés. Réservez votre cours d'essai gratuit.">
+  <title>Power Gym | Salle de sport à Casablanca</title>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon ">
+
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon ">
 </head>
 
 <body>
   <header class="en-tete">
     <div class="conteneur en-tete-contenu">
-      <img src="img/logo.png" alt="Logo Power Gym" height="80px">
+      <img src="img/logo.png" alt="Logo Power Gym" height="200px">
 
       <nav aria-label="Navigation principale">
         <ul class="menu">
@@ -31,14 +40,14 @@
       <FORM method="post" action="#">
         <h2>Envoyez-nous un message</h2>
         <label for="nom">Nom complet *</label>
-        <input type="text" id="nom" name="nom" placeholder="ex mariem ait ayoub" required>
+        <input type="text" id="nom" name="nom" placeholder="Ex. Mariem Aits" required>
         <label for="tel">Numero de telephone</label>
-        <input type="tel" id="tel" name="tel" placeholder="+212 600 000 0000">
+        <input type="tel" id="tel" name="tel" placeholder="+212 600 000 000">
         <label for="email">Adresse e-mail *</label>
-        <input type="email" id="email" name="email" placeholder="ex mariemaitayoub@gmail.com">
+        <input type="email" id="email" name="email" placeholder="ex mariem@gmail.com">
         <div class="dropdown">
-          <label for="object">objet de votre demande</label>
-          <select name="" id="object">
+          <label for="object">Objet de votre demande</label>
+          <select name="" id="object" required>
             <option value="" disabled selected>Sélectionnez une option</option>
             <option value="Abonnement">Abonnement & Tarifs (Mensuel / Annuel)</option>
             <option value="coaching">Coaching individuel personnalisé (Personal Training)</option>
@@ -47,12 +56,12 @@
           </select>
         </div>
         <label for="message">Votre message</label>
-        <textarea id="message" name="message" rows="4" placeholder="ecrivez votre message ici..." required></textarea>
+        <textarea id="message" name="message" rows="4" placeholder="Écrivez votre message ici..." required></textarea>
         <button type="submit">ENVOYER LA DEMANDE</button>
       </FORM>
     </section>
   </main>
-  <footer class="pied-de-page">
+  <!-- <footer class="pied-de-page">
     <div class="conteneur">
       <div class="pied-haut">
         <div>
@@ -75,6 +84,37 @@
       </div>
     </div>
   </footer>
+</body>
+
+</html> -->
+  <footer class="pied-de-page">
+    <div class="conteneur">
+
+      <div class="pied-haut">
+        <div>
+          <p class="logo logo-clair">POWER Gym </p>
+          <p class="slogan">Ton énergie, ton rythme.</p>
+        </div>
+
+        <nav aria-label="Navigation du pied de page">
+          <ul class="menu menu-pied">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="programmes.html">Programmes</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class="pied-bas">
+        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
+        <p>&copy; 2026 POWER Gym — Projet pédagogique fictif</p>
+      </div>
+
+    </div>
+  </footer>
+
 </body>
 
 </html>
